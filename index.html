@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/headers.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/heroes.css">
+  <title>Yaguara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    ¡Bienvenid@s!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a class="menuInicial" href="#">Mujer</a> | <a class="menuInicial" href="#">Hombre</a>
+      </div>
+      <div class="logo col">
+        <img src="img/Logotipo_YAGUARA.png" class="w-200" alt="Logotipo_YAGUARA">
+      </div>
+      <div class="iconos col">
+        <i class="fas fa-search"></i>
+        <i class="far fa-user"></i>
+        <i class="far fa-heart"></i>
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="Closet.html" class="nav-link">Closet</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Zapatos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Complementos</a></li>
+        <li class="nav-item"><a href="Inspiracion.html" class="nav-link">Inpiración</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sale</a></li>
+      </ul>
+    </header>
+  </div>
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/CIndex1.jpg" class="d-block w-100" alt="Diseño 1">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/CIndex2.jpg" class="d-block w-100" alt="Diseño 1">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <p><a class="btn btn-lg btn-primary" href="#">Ver Outfits</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/CIndex3.jpg" class="d-block w-100" alt="Diseño 1">
+
+          <div class="container">
+            <div class="carousel-caption text-center">
+              <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="lightbox" style="padding: 5rem;">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/AIndex1.png" data-mdb-img="https://mdbootstrap.com/img/Photos/Vertical/1.jpg"
+            alt="Lightbox image 3" class="w-100 shadow-1-strong rounded" />
+        </div>
+        <!-- Esta es la columna para el texto de la imagen-->
+        <div class="col-lg-4">
+          <img src="img/AIndex2.jpg" data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/1.jpg"
+            alt="Lightbox image 1" class="w-300 mb-2 mb-md-4 shadow-1-strong rounded" />
+          <img src="img/AIndex3.png" data-mdb-img="https://mdbootstrap.com/img/Photos/Square/1.jpg"
+            alt="Lightbox image 2" class="w-300 shadow-1-strong rounded" />
+        </div>
+        <div class="col-lg-4">
+          <h1>La era de las plataformas</h1>
+          <P1> Las nuevas integrantes de nuestro closet que llegaron para quedarse</P1>
+          <a href="Inspiracion.html" class="botón">Ver nota</a>
+        </div>
+      </div>
+    </div>
+    <div class="EnlaceInstagram">
+      <h3><a href="https://www.instagram.com/yaguara.cr/?hl=es-la.html" target="_blank" class="nav-link">INSTAGRAM
+          @yaguara.cr</a></h3>
+    </div>
+    <!-- Modal gallery -->
+    <section class="">
+      <!-- Section: Images -->
+      <section class="">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-lg-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="img/C2Index1.png" class="w-100" />
+              <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mb-4 mb-lg-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="img/C2Index2.png" class="w-100" />
+              <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mb-4 mb-lg-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="img/C2Index3.png" class="w-100" />
+              <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-lg-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="img/C2Index4.png" class="w-100" />
+              <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mb-4 mb-lg-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="img/C2Index5.png" class="w-100" />
+              <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 mb-4 mb-lg-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="img/C2Index6.png" class="w-100" />
+              <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <!-- Modal gallery -->
+  </main>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <img src="img/IsotipoNegro.png" class="d-block w-400" alt="Diseño 1">
+        <span class="text-muted">&copy; 2021 Yaguara</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter">
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram">
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+   -->
+  <script src="https://kit.fontawesome.com/1952a4c4d1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

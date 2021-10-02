@@ -1,0 +1,138 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+.alert-warning {
+    color: #FFF;
+    background-color: #ca9e67;
+    border-color: #ca9e67;
+}
+.alert {
+    position: relative;
+    padding: 5px;
+    margin-bottom: 1rem;
+    border: 0px solid transparent;
+    border-radius: 0;
+    text-align: center;
+}
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    z-index: 2;
+    padding: 5px;
+}
+.btn-close {
+    box-sizing: content-box;
+    width: .25em;
+    height: .25em;
+    color: #FFF !important;
+}
+.menuInicial {
+    text-decoration: none;
+    color: #000;
+}
+.menuInicial:hover {
+    text-decoration: none;
+    color: rgb(101, 100, 100);
+}
+.logo {
+    text-align: center !important;
+    justify-content: right;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #000;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ca9e67;
+}
+.w-200 {
+    width: 200px !important;
+    height: auto;
+    text-align: center !important;
+}
+.iconos {
+    text-align: right;
+}
+.btn-primary {
+    color: #ca9e67;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+.w-300 {
+    width: 265px;
+    height: auto;
+}
+.h1, h1 {
+    font-size: calc(1rem + 1.5vw);
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.botón {
+    text-decoration: none;
+    background:#ca9e67;
+    width: 100px;
+    color: #fff;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.EnlaceInstagram {
+    text-align: center;
+}
+.col {
+    margin-top: 15px;
+}
+.w-400{
+    width: 70px;
+    height: auto;
+    margin-right: 20px;
+}
+.h2, h2 {
+    font-size: calc(4rem + 1.5vw);
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.p2, p2 {
+    font-size: calc(0.8rem + 1.5vw);
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.textoInspo {
+    padding-top: 100px;
+}
+.btn-primary2 {
+    color: #FFF;
+    background-color: #ca9e67;
+    border-color: #ca9e67;
+}
+.h3, h3 {
+    font-size: calc(1rem + 1.5vw);
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.py-5 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem!important;
+}
+.h4, h4 {
+    font-size: calc(1rem + 1.5vw);
+    padding-bottom: 20px;
+}
+.btn-outline-secondary1 {
+    color: #FFF;
+    background-color: #ca9e67;
+    border-color: #ca9e67; 
+}
+.card-text1 {
+    font-size: 10px;
+}
+.imageContainer {
+    position: relative;
+}
